@@ -120,7 +120,7 @@ public class SalesProgram {
     public static void display(){
         System.out.printf("%-10s %12s %12s %12s %12s %14s%n",
                 "Name", "Week 1", "Week 2", "Week 3", "Week 4", "Monthly Total");
-        System.out.println("------------------------------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------------------");
 
         for (int i = 0; i < arSalesPerson.length; i++){
             System.out.printf("%-10s", arSalesPerson[i]);
